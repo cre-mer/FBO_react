@@ -1,53 +1,37 @@
 {
-	"name": "fbo-react",
-	"version": "1.0.0",
-	"description": "FBO's react components, built with rinse boilerplate.",
-	"main": "dist/rinse.js",
-	"scripts": {
-		"test": "echo \"No test specified\"",
-		"build": "webpack --mode production",
-		"storybook": "start-storybook -p 9001",
-		"docz:dev": "docz dev",
-		"docz:build": "docz build"
-	},
+	"name": "fbo-react-lib",
+	"version": "0.0.1",
+	"description": "This is FBO's React Components Library",
+	"main": "./dist/index.js",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/cre-mer/FBO_react.git"
+		"url": "https://github.com/FBOgmbh/FBO_fbo-react-lib"
+	},
+	"scripts": {
+		"test": "echo \"no test specified\"",
+		"build": "webpack --mode production",
+		"watch": "webpack --watch --progress --hide-modules --mode development --config=./webpack.config.js"
 	},
 	"keywords": [
-		"boilerplate",
 		"react",
-		"shared",
 		"components",
-		"components"
+		"fbo"
 	],
 	"author": "Jonas Merhej",
-	"license": "MIT",
-	"bugs": {
-		"url": "https://github.com/cre-mer/FBO_react"
-	},
-	"homepage": "https://github.com/cre-mer/FBO_react",
+	"license": "Apache-2.0",
 	"devDependencies": {
 		"@babel/core": "^7.2.2",
+		"@babel/plugin-proposal-class-properties": "^7.4.0",
 		"@babel/preset-env": "^7.2.3",
 		"@babel/preset-react": "^7.0.0",
-		"@storybook/addon-actions": "^4.0.0-alpha.20",
-		"@storybook/react": "^4.1.18",
-		"@tulipjs/eslint-config": "^1.1.1",
-		"babel-loader": "^8.0.1",
-		"css-loader": "^1.0.0",
-		"docz": "^1.2.0",
-		"docz-theme-default": "^1.2.0",
-		"node-sass": "^4.9.3",
-		"sass-loader": "^7.1.0",
-		"style-loader": "^0.23.1",
-		"url-loader": "^1.1.2",
+		"babel-loader": "^8.0.5",
 		"webpack": "^4.28.3",
 		"webpack-cli": "^3.2.0"
 	},
 	"dependencies": {
-		"react": "^16.8.6",
-		"react-dom": "^16.8.6",
-		"styled-components": "^4.2.1"
+		"axios": ">=0.18.1",
+		"node-env": "^0.1.6",
+		"react": "^16.7.0",
+		"react-dom": "^16.7.0"
 	}
 }

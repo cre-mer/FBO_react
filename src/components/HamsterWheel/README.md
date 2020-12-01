@@ -1,11 +1,3 @@
-## Installation
-
-**Using NPM:**
-
-```bash
-npm install fbo-react-lib
-```
-
 This is a Simple Component that extends FBO's component
 
 ## Usage
