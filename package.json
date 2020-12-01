@@ -1,6 +1,6 @@
 {
 	"name": "fbo-react-lib",
-	"version": "0.0.1",
+	"version": "1.0.0",
 	"description": "This is FBO's React Components Library",
 	"main": "./dist/index.js",
 	"repository": {
